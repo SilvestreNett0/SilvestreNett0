@@ -1,97 +1,119 @@
-<h1 align="center">Olá, eu sou o Silvestre Pereira de Oliveira Netto 👋</h1>
+<h1 align="center">Silvestre Pereira de Oliveira Netto</h1>
 
 <p align="center">
-  <b>Bacharel em Ciência da Computação (IF Goiano) · Desenvolvedor Python · Suporte e infraestrutura de TI</b>
+  <b>Desenvolvedor Python · Full stack · Suporte e infraestrutura de TI</b><br>
+  Bacharel em Ciência da Computação pelo IF Goiano
 </p>
 
 <p align="center">
-  Desenvolvo sistemas web de ponta a ponta, do banco de dados à interface, e cuido da infraestrutura que mantém esses sistemas funcionando.
+  <a href="mailto:silvestrenetto@outlook.com.br"><img src="https://img.shields.io/badge/silvestrenetto@outlook.com.br-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="E-mail"></a>
+  <img src="https://img.shields.io/badge/2%20registros%20de%20software-INPI-1F6FEB?style=flat-square" alt="2 registros de software no INPI">
+</p>
+
+<p align="center">
+  Desenvolvo sistemas web de ponta a ponta, do banco de dados à interface, e cuido da infraestrutura que os mantém funcionando.<br>
+  Gosto de transformar processos manuais em ferramentas simples, justas e fáceis de usar.
 </p>
 
 ---
 
-## 💼 Atualmente
+## 🚀 Projetos em destaque
 
-Trabalho na **8ª Delegacia Regional de Polícia Civil**, na área administrativa e de tecnologia:
+### 🚔 Gestão de Veículos Apreendidos · *Trabalho de Conclusão de Curso*
 
-- desenvolvimento de **sistemas ágeis** para demandas internas;
-- **apoio à rede de computadores** e **manutenção** de equipamentos;
-- **apoio ao desenvolvimento e à implantação** de sistemas mantidos por terceiros.
+**[Código](https://github.com/SilvestreNett0/veiculos-8drp)** · 2 programas registrados no INPI
 
-## 🧭 Sobre mim
+Sistema web que substituiu planilhas e controles manuais no acompanhamento de veículos apreendidos, da apreensão até a baixa.
 
-- 🎓 **Bacharel em Ciência da Computação** pelo **Instituto Federal Goiano (IF Goiano)**.
-- 🐍 Programador com mais experiência em **Python**, usando **Django**, **FastAPI** e **Flask**.
-- 🌐 Desenvolvimento **front-end e back-end**: APIs REST, interfaces web responsivas, modelagem de dados, testes e implantação.
-- 🧠 Participei de **trabalhos acadêmicos com PyTorch e TensorFlow**.
-- 🛠️ **Hardware, software e redes**: montagem e manutenção de computadores e redes, instalação e configuração de sistemas.
-- 🤝 **Mais de 2 anos de experiência em atendimento e suporte técnico** ao usuário.
-- 🖥️ **Informática avançada**: Microsoft Office e LibreOffice, uso do dia a dia em Windows e Linux.
-- 📚 **Autodidata**: aprendo ferramentas novas conforme os projetos pedem.
+- Cadastro de **veículos, proprietários e procedimentos**, com histórico completo de cada veículo
+- **Fotos com compressão automática** (WebP e miniaturas) e anexos de documentos
+- **Baixa** por devolução, leilão ou destruição, com checklist e **comprovante em PDF**
+- **Painel com estatísticas**, busca com vários filtros, **API REST** e controle de acesso
 
-## 🛠️ Tecnologias e ferramentas
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![DRF](https://img.shields.io/badge/Django%20REST-A30000?style=flat-square&logo=django&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-**Linguagens**
+<br>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### 🎲 Sistema de Sorteio de Procedimentos · *em uso em produção*
 
-**Back-end**
+**[Código](https://github.com/SilvestreNett0/sorteio-procedimentos-portfolio)**
 
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Django REST](https://img.shields.io/badge/Django%20REST-A30000?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+Distribui de forma **justa e auditável** a ordem de atendimento dos servidores em plantões de 24 horas.
 
-**Front-end**
+- Algoritmo de **saldo acumulado**: escolhe a ordem mais justa com base no histórico e só sorteia entre opções equivalentes
+- Validado com **simulação sobre mais de 1.300 sorteios reais**: cerca de **3 vezes mais equilibrado** que o método anterior
+- Cada resultado explica **por que** cada pessoa ficou em cada posição; **trilha de auditoria** completa e PDF
+- Implantado em Linux com **Nginx, Gunicorn, systemd e HTTPS**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/Django%20REST-A30000?style=flat-square&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
-**Inteligência artificial**
+<br>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+### 🏐 Placar de Vôlei · *nas horas vagas*
 
-**Infraestrutura e ferramentas**
+**[Usar agora](https://silvestrenett0.github.io/placar-volei/)** · **[Código](https://github.com/SilvestreNett0/placar-volei)**
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Microsoft Office](https://img.shields.io/badge/Microsoft%20Office-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white)
-![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
+Nas horas vagas, crio ferramentas para facilitar o dia a dia. O placar abre direto no navegador do celular, **sem baixar aplicativo e sem propagandas**.
+
+- Toque para marcar ponto e deslize para corrigir; sets, tie-break e saque controlados automaticamente
+- **Funciona sem internet** depois do primeiro acesso e pode ser adicionado à tela inicial
+- Animações de cortada, sequência de pontos, virada e *match point*
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+
+---
 
 ## 📜 Registros de software no INPI
 
-Coautor de dois programas de computador registrados no **Instituto Nacional da Propriedade Industrial (INPI)**, com titularidade do **IF Goiano**. Os registros fazem parte de um sistema de **gestão de veículos apreendidos, baixas e evidências**:
+Os dois módulos do meu TCC estão registrados no **Instituto Nacional da Propriedade Industrial**, com titularidade do **IF Goiano**, em coautoria com a equipe do projeto.
 
-| Programa | Processo | Linguagens | Publicação |
-|---|---|---|---|
-| **Plataforma de Backend em Django (MTV) para Gestão de Veículos Apreendidos, Baixas e Evidências** | BR512025006985-5 | Python | 08/12/2025 |
-| **Frontend Web Responsivo com Django Templates, Bootstrap e Chart.js para Gestão de Veículos Apreendidos, Baixas e Evidências** | BR512025006723-2 | HTML, JavaScript, CSS | 10/12/2025 |
+| Programa | Processo | Linguagens |
+|---|---|---|
+| Plataforma de Backend em Django (MTV) para Gestão de Veículos Apreendidos, Baixas e Evidências | `BR512025006985-5` | Python |
+| Frontend Web Responsivo com Django Templates, Bootstrap e Chart.js para Gestão de Veículos Apreendidos, Baixas e Evidências | `BR512025006723-2` | HTML, JavaScript, CSS |
 
-## 🚀 Projetos em destaque
+---
 
-### 🎲 [Sistema de Sorteio de Procedimentos](https://github.com/SilvestreNett0/sorteio-procedimentos-portfolio)
-Sistema web **em uso em produção** que distribui, de forma justa e auditável, a ordem de atendimento dos servidores em plantões de 24 horas.
+## 💼 Experiência
 
-- **Django + Django REST Framework** no back-end e **React + Vite** no front-end.
-- Algoritmo de **distribuição por saldo acumulado**: avalia todas as ordens possíveis e escolhe a mais justa com base no histórico, sorteando apenas entre as opções equivalentes. A escolha foi validada com **simulação sobre mais de 1.300 sorteios reais**, e o resultado ficou cerca de 3 vezes mais equilibrado que o método anterior.
-- **Trilha de auditoria completa**, perfis de acesso, login por CPF e relatórios em PDF.
-- Implantação em servidor Linux com **Nginx, Gunicorn, systemd e HTTPS**.
+**8ª Delegacia Regional de Polícia Civil** · *atual*
+Atuo na área administrativa e de tecnologia: desenvolvimento de sistemas para demandas internas, apoio à rede de computadores, manutenção de equipamentos e apoio ao desenvolvimento e à implantação de sistemas mantidos por terceiros.
 
-### 🚓 Gestão de Veículos Apreendidos, Baixas e Evidências
-Sistema desenvolvido em equipe no **IF Goiano**, com back-end em **Django** e front-end responsivo com **Bootstrap** e **Chart.js**. Os dois módulos têm **registro no INPI** (veja acima).
+**Atendimento e suporte técnico** · *mais de 2 anos*
+Atendimento ao usuário, montagem e manutenção de computadores, redes, instalação e configuração de sistemas.
 
-## 📫 Contato
+## 🎓 Formação
 
-[![E-mail](https://img.shields.io/badge/silvestrenetto@outlook.com.br-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:silvestrenetto@outlook.com.br)
+**Bacharelado em Ciência da Computação** · Instituto Federal Goiano (IF Goiano)
+Participação em trabalhos acadêmicos com **PyTorch** e **TensorFlow**.
+
+---
+
+## 🛠️ Tecnologias
+
+| Área | Ferramentas |
+|---|---|
+| **Linguagens** | Python · JavaScript · HTML · CSS · SQL |
+| **Back-end** | Django · Django REST Framework · FastAPI · Flask |
+| **Front-end** | React · Vite · Bootstrap · Chart.js · Django Templates |
+| **Dados** | PostgreSQL · SQLite · Redis |
+| **IA** | PyTorch · TensorFlow |
+| **Infraestrutura** | Linux · Windows · Nginx · Gunicorn · Git · redes de computadores |
+| **Escritório** | Microsoft Office · LibreOffice |
+
+Autodidata: aprendo as ferramentas que cada projeto pede.
 
 ---
 
